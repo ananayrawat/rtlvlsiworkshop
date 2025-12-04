@@ -67,6 +67,8 @@ Yosys is an open-source Verilog synthesis suite used to optimize RTL and generat
 ```bash
 yosys
 ```
+![Alt text](images/Screenshot 2025-12-04 094330.png)
+
 
 ### 3.2 Load RTL Design
 
@@ -91,6 +93,7 @@ synth -top rtl_file
 ```
 
 * `rtl_file` is the top module name (not the filename)
+  ![Alt text](images/Screenshot 2025-12-04 094511.png)
 
 ### 3.5 Technology Mapping
 
@@ -107,7 +110,7 @@ show
 ```
 
 Displays the synthesized logic diagram.
-
+ ![Alt text](images/Screenshot 2025-12-04 100031.png)
 ### 3.7 Export Gate-Level Netlist
 
 ```bash
@@ -117,7 +120,7 @@ write_verilog -noattr rtl_file_netlist.v
 Creates a clean Verilog netlist without tool-specific attributes.
 
 ---
-
+ ![Alt text](images/Screenshot 2025-12-04 100340.png)
 ## 4. Complete Flow Summary
 
 1. Prepare RTL and testbench: `rtl_file.v`, `tb_file.v`
