@@ -54,7 +54,7 @@ gtkwave tb_file.vcd
 You can add signals, zoom in/out, and analyze timing and logic behavior.
 
 ---
-![Screenshot](images/Screenshot%202025-12-04%20093704.png)
+![Alt text](images/Screenshot%202025-12-04%20093704.png)
 
 
 ## 3. Yosys (Synthesis)
