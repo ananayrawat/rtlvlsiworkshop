@@ -67,7 +67,8 @@ Yosys is an open-source Verilog synthesis suite used to optimize RTL and generat
 ```bash
 yosys
 ```
-![Alt text](images/Screenshot 2025-12-04 094330.png)
+<img width="1052" height="444" alt="image" src="https://github.com/user-attachments/assets/2083778d-de81-4a40-9c4a-fe013e1834a9" />
+
 
 
 ### 3.2 Load RTL Design
@@ -93,7 +94,8 @@ synth -top rtl_file
 ```
 
 * `rtl_file` is the top module name (not the filename)
-  ![Alt text](images/Screenshot 2025-12-04 094511.png)
+<img width="550" height="262" alt="image" src="https://github.com/user-attachments/assets/91848430-41e5-402b-a365-7cccd44dfa50" />
+
 
 ### 3.5 Technology Mapping
 
@@ -110,7 +112,8 @@ show
 ```
 
 Displays the synthesized logic diagram.
- ![Alt text](images/Screenshot 2025-12-04 100031.png)
+<img width="669" height="369" alt="image" src="https://github.com/user-attachments/assets/717b6c2c-3578-4621-8bca-2a8a54eace2c" />
+
 ### 3.7 Export Gate-Level Netlist
 
 ```bash
@@ -120,7 +123,10 @@ write_verilog -noattr rtl_file_netlist.v
 Creates a clean Verilog netlist without tool-specific attributes.
 
 ---
- ![Alt text](images/Screenshot 2025-12-04 100340.png)
+
+<img width="564" height="89" alt="image" src="https://github.com/user-attachments/assets/77f4ea4c-a5d9-4274-887a-ad11929aa684" />
+
+ 
 ## 4. Complete Flow Summary
 
 1. Prepare RTL and testbench: `rtl_file.v`, `tb_file.v`
